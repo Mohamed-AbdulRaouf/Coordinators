@@ -1,0 +1,19 @@
+//
+//  BuyVC.swift
+//  Coordinators
+//
+//  Created by mohamed on 7/27/22.
+//
+
+import UIKit
+
+class BuyVC: UIViewController, Storyboarded {
+    
+    weak var coordinator: MainCoordinator?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+}
